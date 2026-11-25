@@ -1,17 +1,130 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX220 Test 2</title>
+
     <style>
-        img{
-            max-width: 100%;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 1em;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333333;
+        }
+
+        section {
+            background-color: white;
+            padding: 1.5em;
+            margin-bottom: 1em;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #2457a7;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: purple;
         }
     </style>
 </head>
+
 <body>
-    <main class="row"><section class="col-md-8"><x-markdown2html src="README.md"></x-markdown2html></section>
-    <section class="col-md-4"><x-sitemap /></x-sitemap></main></section>
-    <script src="https://custom-element.pages.dev/custom-element.js" crossorigin="anonymous"></script>
+
+    <header>
+        <h1>UX220 Test 2</h1>
+        <p>Each question is worth 2 points.</p>
+        <p>Total: 10 points</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Question 1 — CSS ID Selector</h2>
+
+            <p>
+                Because of a mistake, the following code colors
+                the text in both divs. Fix the mistake so that
+                the text is colored in only the 1st div.
+            </p>
+
+            <a href="q1.html">View Question 1</a>
+        </section>
+
+        <section>
+            <h2>Question 2 — Form Action and CSS Margin</h2>
+
+            <p>
+                Describe using a properly structured HTML document
+                and your own words the responsibility of the action
+                attribute of a form tag. Apply CSS formatting to
+                change the background of the paragraphs to silver.
+                Keep the foreground color as black.
+                Change the non-silver space around your paragraph
+                to have a left and bottom margin equal to the
+                height of a default character.
+            </p>
+
+            <a href="q2.html">View Question 2</a>
+        </section>
+
+        <section>
+            <h2>Question 3 — Bootstrap Form</h2>
+
+            <p>
+                The following code is for a form in Twitter Bootstrap.
+                Add a field that allows the user to select a subject
+                from either "support" or "consulting" choices.
+                In the correct part of the file, also add HTML
+                so that the page will display with 1:1 scale
+                on a mobile device.
+            </p>
+
+            <a href="q3.html">View Question 3</a>
+        </section>
+
+        <section>
+            <h2>Question 4 — JavaScript Custom Element</h2>
+
+            <p>
+                The following custom element logs the number of
+                days until New Years to the console, visible in
+                the "inspect" developer tools. Finish the custom
+                element to put the days left into the HTML.
+            </p>
+
+            <a href="q4.html">View Question 4</a>
+        </section>
+
+        <section>
+            <h2>Question 5 — CSS Class and Padding</h2>
+
+            <p>
+                Add a single CSS rule to give labels with the
+                class green_label a green background.
+                Create green space equal to the current font
+                size around those labels.
+            </p>
+
+            <a href="q5.html">View Question 5</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>UX220 — Test 2 Practice</p>
+    </footer>
+
 </body>
 
 </html>
